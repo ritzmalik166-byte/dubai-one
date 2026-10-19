@@ -38,7 +38,7 @@ export default function Home() {
               <em>considered.</em>
             </L>
           </h2>
-          <div className="life__img">
+          <div className="life__img" data-reveal data-skew>
             <img src="/images/kitchen.webp" alt="Italian kitchen" data-par="10" />
           </div>
           <p className="life__cap" data-fade>

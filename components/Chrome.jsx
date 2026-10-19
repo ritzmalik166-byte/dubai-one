@@ -76,10 +76,16 @@ export default function Chrome() {
           <a href="#location" data-cursor="hover">Location</a>
         </nav>
         <div className="hdr__right">
-          <a className="hdr__cta" href="#contact" data-cursor="hover">
+          <a className="hdr__cta" href="#contact" data-cursor="hover" data-magnetic>
             Enquire
           </a>
-          <button className="hdr__menu" onClick={() => setOpen((v) => !v)} data-cursor="hover" aria-expanded={open}>
+          <button
+            className="hdr__menu"
+            onClick={() => setOpen((v) => !v)}
+            data-cursor="hover"
+            data-magnetic
+            aria-expanded={open}
+          >
             <span>{open ? 'Close' : 'Menu'}</span>
             <i />
             <i />

@@ -17,7 +17,7 @@ export default function Amenities() {
       </div>
       <div className="amen__grid">
         <div className="amen__media">
-          <div className="amen__frame">
+          <div className="amen__frame" data-reveal>
             {AMENITIES.map((a, i) => (
               <img
                 key={i}

@@ -26,7 +26,7 @@ export default function Finale() {
               <em>a different rhythm.</em>
             </L>
           </h2>
-          <a className="link" href="#contact" data-cursor="hover">
+          <a className="link" href="#contact" data-cursor="hover" data-magnetic>
             Enquire about Reposé <span className="arr">↗</span>
           </a>
         </div>
@@ -67,7 +67,7 @@ export default function Finale() {
               <option>3 BHK</option>
               <option>Penthouse</option>
             </select>
-            <button className="pill pill--light" type="submit" data-cursor="hover">
+            <button className="pill pill--light" type="submit" data-cursor="hover" data-magnetic>
               Contact us <span className="arr">→</span>
             </button>
           </form>

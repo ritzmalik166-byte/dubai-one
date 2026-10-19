@@ -62,7 +62,7 @@ export default function Lifestyle() {
         <div className="gen__arch">
           <img src="/images/kids.webp" alt="Kids play garden" data-par="10" />
         </div>
-        <div className="gen__small">
+        <div className="gen__small" data-reveal data-skew>
           <img src="/images/living.webp" alt="" data-par="14" />
         </div>
         <div className="gen__copy" data-fade>

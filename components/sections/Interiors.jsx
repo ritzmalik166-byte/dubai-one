@@ -19,7 +19,7 @@ export default function Interiors() {
             Four rooms, one feeling — light, measured and warm to the touch.
           </p>
         </div>
-        <div className="arches">
+        <div className="arches" data-skew>
           {ROOMS.map((r, i) => (
             <a className="arch" href="#bedroom" key={r.name} data-cursor-label="View" style={{ '--i': i }}>
               <div className="arch__media">
